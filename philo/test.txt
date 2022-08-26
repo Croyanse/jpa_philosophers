@@ -1,0 +1,8 @@
+make re
+rm -f main.o m_thread.o utils.o actions.o
+rm -f ./philo
+rm -rf *.dSYM
+gcc -c -pthread main.c m_thread.c utils.c actions.c 
+gcc -I /usr/local/include main.c m_thread.c utils.c actions.c -o philo
+clear
+[H[2Jvalgrind --tool=helgrind  ./philo 199 410 200 200

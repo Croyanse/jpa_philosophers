@@ -1,0 +1,6 @@
+check si avec nbr_takeforks tout le monde mange ce qu'il faut avant que le programme coupe
+les id doivent etre entre 1 et ...
+le message died est mauvais
+
+
+Bonus ? 
